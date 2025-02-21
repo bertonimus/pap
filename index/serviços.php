@@ -77,21 +77,21 @@ $conn->close();
         <section class="search-section">
             <h1>Encontre ajuda para qualquer tarefa</h1>
             <form method="GET" action="resultados.php" class="search-box">
-    <input type="text" name="nome" placeholder="Do que você precisa? Ex: cortar relva, fazer compras...">
-    <select name="categoria">
-        <option value="">Todos os tipos</option>
-        <option value="casa">Serviços Domésticos</option>
-        <option value="digital">Serviços Digitais</option>
-        <option value="assistencia">Assistência Pessoal</option>
-        <option value="manutencao">Manutenção</option>
-        <option value="eventos">Eventos</option>
-        <option value="Aulas e Treinos">Aulas e Treinos</option>
-    </select>
-    <button type="submit" class="search-btn">Buscar</button>
-</form>
+                <input type="text" name="nome" placeholder="Do que você precisa? Ex: cortar relva, fazer compras...">
+                <select name="categoria">
+                    <option value="">Todos os tipos</option>
+                    <option value="casa">Serviços Domésticos</option>
+                    <option value="digital">Serviços Digitais</option>
+                    <option value="assistencia">Assistência Pessoal</option>
+                    <option value="manutencao">Manutenção</option>
+                    <option value="eventos">Eventos</option>
+                    <option value="Aulas e Treinos">Aulas e Treinos</option>
+                </select>
+                <button type="submit" class="search-btn">Buscar</button>
+            </form>
         </section>
 
-        
+
 
         <!-- Categorias Populares -->
         <section class="categories-section">
